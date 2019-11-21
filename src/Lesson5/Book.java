@@ -1,7 +1,7 @@
 package Lesson5;
 
 public class Book {
-	private int id;
+   	private int id;
 	private String name;
 	private String author;
 	private String publisher;
@@ -10,7 +10,7 @@ public class Book {
 	private double price;
 	private String typeoOfBinding;
 
-	public Book(int id, String name, String author, String publisher, int year, int pages, double price,
+	 public Book(int id, String name, String author, String publisher, int year, int pages, double price,
 			String typeOfBinding) {
 		this.id = id;
 		this.name = name;
