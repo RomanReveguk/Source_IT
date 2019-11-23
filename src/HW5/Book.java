@@ -1,4 +1,4 @@
-package Lesson5;
+package HW5;
 
 public class Book {
    	private int id;
