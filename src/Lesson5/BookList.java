@@ -6,7 +6,7 @@ import java.util.List;
 public class BookList {
 
 	private List<Book> listBook = new ArrayList<>();
-
+  
 	public BookList() {
 		listBook.add(new Book(0, "Первая книга", "Первый автор", "Первое издательство", 2019, 100, 200, "Жесткий"));
 		listBook.add(new Book(1, "Вторая книга", "Второй автор", "Второе издательство", 2018, 300, 200.50, "Жесткий"));
